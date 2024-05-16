@@ -3,15 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    width: 1200px;
+.image-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+   
 }
-.wrapper{
+/* .wrapper{
+  
     display: flex;
-    justify-content: space-between;
-}
-.card{
+   justify-content: space-between;
+    
+} */
+img{
+    margin-top: 20px;
     width: 30%;
-    height: 250px;
+    height: 230px;
 
 }
+
+
+.image-container img {
+  margin-left: 20px;
+  }
+  .header{
+    background: linear-gradient(to right, #e880fd, #1ff8af);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .header-left{
+   
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+  .header-right{
+
+  }
+  .header-search{
+    border-radius: 30px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    
+  }

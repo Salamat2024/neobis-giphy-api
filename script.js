@@ -11,12 +11,20 @@ async function getResponse() {
     let content = await response.json();
   
     const container = document.querySelector('.image-container');
+    const wrapper=document.querySelector('.wrapper')
     container.innerHTML = '';
+    // wrapper.innerHTML='';
   
     content.data.forEach(gif => {
       const img = document.createElement('img');
       img.src = gif.images.fixed_height.url;
       container.appendChild(img);
+
+    //   const images=document.createElement('img')
+    //   images.src= gif.images.fixed_height.url;
+    //   wrapper.appendChild(images)
+    
+
     
     });
   }
