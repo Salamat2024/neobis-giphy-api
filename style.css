@@ -3,12 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-.image-container{
+.image-container,.container{
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 10px;
-    
-   
+      
+}
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 /* .wrapper{
   
@@ -29,9 +33,6 @@ img{
   }
   .header{
     background: linear-gradient(to right, #e880fd, #1ff8af);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 100px;
   }
   

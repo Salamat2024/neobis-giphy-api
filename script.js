@@ -7,7 +7,7 @@
 // https://api.giphy.com/v1/gifs/search?api_key=PV2ZWWf3tgqbbZ81FxfGo7ORrrCHVrRH&q=cats&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips
 
 async function getResponse() {
-    let response = await fetch("https://api.giphy.com/v1/gifs/search?api_key=PV2ZWWf3tgqbbZ81FxfGo7ORrrCHVrRH&q=dogs&limit=10&offset=0&rating=g&lang=en&bundle=messaging_non_clips");
+    let response = await fetch("https://api.giphy.com/v1/gifs/search?api_key=PV2ZWWf3tgqbbZ81FxfGo7ORrrCHVrRH&q=lion&limit=10&offset=0&rating=g&lang=en&bundle=messaging_non_clips");
     let content = await response.json();
   
     const container = document.querySelector('.image-container');
@@ -23,9 +23,7 @@ async function getResponse() {
     //   const images=document.createElement('img')
     //   images.src= gif.images.fixed_height.url;
     //   wrapper.appendChild(images)
-    
-
-    
+        
     });
   }
   
